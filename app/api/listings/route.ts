@@ -30,7 +30,7 @@ export async function POST(request: Request) {
         data:{
             title,
             description,
-            imageSrc: imageSrc ? imageSrc : "https://asset.cloudinary.com/diokbohaz/ac092faea1985fe6adb6bf6dd9f3e85f",
+            imageSrc: imageSrc ? imageSrc : "https://res.cloudinary.com/diokbohaz/image/upload/v1723118266/ffvw2gicstzx1zyvnmtz.jpg",
             category,
             roomCount,
             bathroomCount,
